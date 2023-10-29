@@ -8,6 +8,7 @@ a {
 }
 
 .top_menu {
+    margin: 0 300px 0 300px;
     width: 1319px;
     height: 928px;
     top: -472px;
@@ -37,15 +38,18 @@ body {
 }
 
 .logo_header {
-    width: 1016px;
+
+    padding: 0px 30px 30px 0px ;
+    display: inline-block;
+    width: 1900px;
     height: 40px;
-    top: -432px;
-    left: 2013px;
+    
 
 
 }
 
 .header_menu {
+
     width: 556px;
     height: 40px;
     top: -432px;
@@ -54,10 +58,15 @@ body {
 
 }
 
-.link_menu {
+.grow_be {
+    
+    width: 120;
+    height: 40;
+}
 
+.link_menu {
+    margin: 0 0 0 50px;
     display: inline-block;
-    margin-right: 30px;
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
@@ -67,7 +76,7 @@ body {
 }
 
 .link {
-    width: 533px;
+    width: 700px;
     height: 17px;
     top: -421px;
     left: 2496px;
@@ -133,6 +142,7 @@ body {
 }
 
 .text_top_main {
+    padding: 10px 10px;
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
@@ -147,6 +157,7 @@ body {
 }
 
 .top_button {
+    padding: 20px 20px;
     width: 374px;
     height: 94px;
     top: 54px;
@@ -155,6 +166,7 @@ body {
 }
 
 .button_1 {
+    margin: 10px 10px;
     width: 140px;
     height: 50px;
     flex-shrink: 0;
@@ -170,6 +182,7 @@ body {
 }
 
 .button_2 {
+    margin: 10px 10px;
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
@@ -184,13 +197,17 @@ body {
 }
 
 .top_img {
-    display: flex;
-    align-items: center;
+    margin: 162px 375px 162px 935;
+    width: 610.73px;
+    height: 372.9px;
+    top: -308px;
+    left: 2572px;
 
 
 }
 
 .footer {
+    margin: 0 300px 0 300px;
     width: 1920px;
     height: 243px;
     flex-shrink: 0;
@@ -198,6 +215,7 @@ body {
 }
 
 .bottom_logo {
+    margin: 20px 20px;
     width: 1240px;
     height: 158px;
     top: 266px;
